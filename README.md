@@ -1,19 +1,12 @@
 # crisp-dm-modified
 Personal custom CRISP-DM ml project development framework
 
-# 1. Business Understanding
-# 2. Analytical Approach
-# 3. Data Collection
-# 3. Data Understanding
-# 4. Feature Engineering/Data Preparation
-# 7. Analysis and Modeling
-
-# END
-##CRISP-DM Framework (modified IBM modified)
+CRISP-DM Framework (modified IBM modified)
 1. Business Understanding
-   - Business Situation
-      - Needs and Pain Points
-      - Opportunities
+
+   A. Business Situation
+      a. Needs and Pain Points
+      b. Opportunities
             - Increase revenue
             - Decrease costs
             - Increase profits
@@ -21,33 +14,33 @@ Personal custom CRISP-DM ml project development framework
             - Improve measurement
             - Reduce process time
             - Reduce risk
-      - Data environment assessment
-      - Readiness assessment
-      - Define Roadmap
+      c. Data environment assessment
+      d. Readiness assessment
+      e. Define Roadmap
       
-  - Business Problem Definition
-      - Clearly define business objectives
-      - Clearly define problem and solution requirements
-      - Hypothesis generation and definition
-      - Clearly define project scope
-      - Define success metrics and measurement plan
-      - Discuss Critical Success Factors (CSFs)
-      - Discuss key features and missing features
-      - Discuss data enrichment requirements/costs
-      - External data enrichment requirements/costs
-      - Define WIP/deployment plan
-      - Engage critical business sponsors
-      - Discuss confusion matrix costs
-      - Discuss security/privacy/AMS (access move store)
+  B. Business Problem Definition
+      a. Clearly define business objectives
+      b. Clearly define problem and solution requirements
+      c. Hypothesis generation and definition
+      d. Clearly define project scope
+      e. Define success metrics and measurement plan
+      f. Discuss Critical Success Factors (CSFs)
+      g. Discuss key features and missing features
+      h. Discuss data enrichment requirements/costs
+      i. External data enrichment requirements/costs
+      j. Define WIP/deployment plan
+      k. Engage critical business sponsors
+      l. Discuss confusion matrix costs
+      m. Discuss security/privacy/AMS (access move store)
       
-  - Analytics Approach
-      - Define the analysis
-      - Define the dependent variable
-      - Define independent variable(s)
-      - Discuss unstructured data
-      - Express problem in context of ML techniques
-      - Discuss sampling requirements
-      - Identify most appropriate technique(s) considering:
+  C. Analytics Approach
+      a. Define the analysis
+      b. Define the dependent variable
+      c. Define independent variable(s)
+      d. Discuss unstructured data
+      e. Express problem in context of ML techniques
+      f. Discuss sampling requirements
+      g. Identify most appropriate technique(s) considering:
           - Project budget
           - Deployment complexity
           - Deployment costs
@@ -58,57 +51,33 @@ Personal custom CRISP-DM ml project development framework
           - Model opacity e.g., black box
           - Scoring requirements e.g., frequency, amounts
 
-                                          
 
-              2. Data Understanding
+2. Data Understanding
 
-                             ○ Data Requirements
+   A. Data Requirements
+       a. Formats
+       b. Structured data
+       c. Unstructured data
+       d. Date/time data
+       e. Readily available data
+       f. Are less accessible data required?
+       g. Are external data required?
+       h. Are new data capture mechanisms required?
+                  
+   B. Data Structure
+       a. Record counts
+       b. Missing variables
+       c. Frequencies - values
+       d. Frequencies - invalid values
+       e. Frequencies - missing values
+       f. Descriptives - basic
+       g. Descriptives - invalid values
+       h. Descriptives - missing values
+       i Descriptives - outliers
+       j. Descriptives - normality
+       k. Date/time - ranges
 
-                                           ○ Formats
-
-                                           ○ Structured data
-
-                                           ○ Unstructured data
-
-                                           ○ Date/time data
-
-                                           ○ Readily available data
-
-                                           ○ Are less accessible data required?
-
-                                           ○ Are external data required?
-
-                                           ○ Are new data capture mechanisms required?
-
-                                          
-
-                             ○ Data Structure
-
-                                           ○ Record counts
-
-                                           ○ Missing variables
-
-                                           ○ Frequencies - values
-
-                                           ○ Frequencies - invalid values
-
-                                           ○ Frequencies - missing values
-
-                                           ○ Descriptives - basic
-
-                                           ○ Descriptives - invalid values
-
-                                           ○ Descriptives - missing values
-
-                                           ○ Descriptives - outliers
-
-                                           ○ Descriptives - normality
-
-                                           ○ Date/time - ranges
-
-                            
-
-                             ○ Data Audit Report
+   C. Data Audit Report
 
                                           
 
